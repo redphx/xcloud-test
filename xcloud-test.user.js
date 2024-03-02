@@ -24,11 +24,12 @@ class Patcher {
     };
 
     static #PATCH_ORDERS = [
+        ['patchStatsOverlay'],
     ];
 
     // Only when playing
     static #PLAYING_PATCH_ORDERS = [
-        ['patchStatsOverlay'],
+        
     ];
 
     static #patchFunctionBind() {
